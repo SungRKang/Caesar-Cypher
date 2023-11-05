@@ -38,5 +38,5 @@ python Assignment3.py
 ## Future Improvements
 - One improvement to this program would be to use a dictionary data structure to manage the shift. For example, a hashmap. 
 - Because the program would no longer depend on a looping track to shift the key, this method would ensure that shifting the string by the user key only allows the correct key to decrypt the string (limitations based on Python's hashing algorithm for their hashmap, see hash collisions).
-- Another benefit is that this method would sacrifice some space complexity to make the .find() equivalent O(1), as reading the value of a hashmap with a given key is linear time (assuming no collisions).
+- Another benefit is that this method would sacrifice some space complexity to make the .find() equivalent O(1), as reading the value of a hashmap with a given key is linear time (assuming no collisions). The overall time complexity then becomes O(n).
 - The reality is that no matter how much optimizations one does to this algorithm, it's limitations are clear and there are better methods of encryption such as Public Key Cryptography or other similar asymetric cryptography methods.
